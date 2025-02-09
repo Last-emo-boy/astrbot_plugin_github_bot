@@ -1,0 +1,17 @@
+{
+    "appId": {
+        "description": "GitHub OAuth App 的 Client ID",
+        "type": "string",
+        "default": "your-oauth-app-client-id"
+    },
+    "appSecret": {
+        "description": "GitHub OAuth App 的 Client Secret",
+        "type": "string",
+        "default": "your-oauth-app-client-secret"
+    },
+    "webhookChannel": {
+        "description": "GitHub Webhook 推送消息的目标频道（填写对应平台的会话 ID）",
+        "type": "string",
+        "default": ""
+    }
+}
