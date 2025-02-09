@@ -2,7 +2,6 @@
 import json
 import requests
 from astrbot.api.all import *
-from astrbot.api.message_components import MessageChain
 
 @register(
     "github", 
